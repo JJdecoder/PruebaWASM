@@ -1,6 +1,6 @@
 ﻿<div class="alert alert-primary mt-4">
     <span class="oi oi-pencil me-2" aria-hidden="true"></span>
-    <strong>@(Title + " " + Title2)</strong>
+    <strong>@(Title + " " + Title2 + " " + Title3)</strong>
 
     <span class="text-nowrap">
         Please take our @Title2
@@ -15,4 +15,6 @@
     public string? Title { get; set; }
     [Parameter]
     public string? Title2 { get; set; }
+    [Parameter]
+    public string? Title3 { get; set; }
 }
