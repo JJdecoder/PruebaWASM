@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HAf8d3UIId0yHdVn0Q0sb47LM2filLRB+gDHg/aL6JIBKU/zP57nsxJwEk9FCUawHkzLxOhdH/j2IjYo31Yhew==",
+  "dgSpecHash": "eMZR1CVle4wgiX62hLsSuxHJ0qEDV8rrUJheo6qfjuTjgHjNwRqe12Ee/Y7SECOgbOxErEv8NsCTO6xQ9QmA4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\JParra\\source\\repos\\PruebaWASM\\PruebaWASM.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\JParra\\.nuget\\packages\\blazored.localstorage\\4.3.0\\blazored.localstorage.4.3.0.nupkg.sha512",
+    "C:\\Users\\JParra\\.nuget\\packages\\blazored.sessionstorage\\2.2.0\\blazored.sessionstorage.2.2.0.nupkg.sha512",
     "C:\\Users\\JParra\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
     "C:\\Users\\JParra\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\microsoft.aspnetcore.components.6.0.10.nupkg.sha512",
     "C:\\Users\\JParra\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.10\\microsoft.aspnetcore.components.analyzers.6.0.10.nupkg.sha512",
@@ -33,7 +35,7 @@
     "C:\\Users\\JParra\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\JParra\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\JParra\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\JParra\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.10.nupkg.sha512"
+    "C:\\Users\\JParra\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.11\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

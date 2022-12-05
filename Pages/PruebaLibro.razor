@@ -1,0 +1,22 @@
+@page "/pruebalibro"
+
+<PageTitle>PruebaLibro</PageTitle>
+
+<h1>Prueba del Libro</h1>
+
+<input type="button" onclick="showMessage" class="btn btn-primary" value="Genera mensaje" />
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    [Parameter]
+    public int IncrementAmount  { get; set; } = 1;
+
+    private void IncrementCount()
+    {
+        currentCount+= IncrementAmount ;
+    }
+}
+
