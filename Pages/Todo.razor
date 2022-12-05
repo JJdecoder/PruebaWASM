@@ -1,4 +1,5 @@
 ﻿@page "/todo"
+@inject ILocalStorageService localStorage
 
 <h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
 
@@ -14,6 +15,7 @@
 
 <input placeholder="Algo para hacer" @bind="newTodo" />
 <button @onclick="AddTodo">Agregar tarea</button>
+<button @onclick="GrabarTareas">Grabar tareas</button>
 
 @code {
     private List<TodoItem> todos = new();
@@ -26,6 +28,24 @@
         {
             todos.Add(new TodoItem { Title = newTodo });
             newTodo = string.Empty;
+        }
+    }
+    private async Task GrabarTareas()
+    {
+        if (todos.Count > 0)
+        {
+           await localStorage.SetItemAsync("todoList", todos);
+
+        }
+    }
+    private async Task CargarTareas()
+    {
+        if (todos.Count > 0)
+        {
+            var temptodos = await localStorage.GetItemAsync<string>("todoList");
+                
+            todos = new List<TodoItem>(temptodos);
+
         }
     }
 }
